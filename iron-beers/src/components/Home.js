@@ -1,6 +1,10 @@
 import React from "react";
+import Header from './misc/Header'
+
 
 export default () => (
+  <div>
+    <Header />
   <div className="custom-card">
     <div>
       <div className="card">
@@ -32,12 +36,11 @@ export default () => (
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             nec iaculis mauris. <a>@bulmaio</a>.<a href="#">#css</a>{" "}
             <a href="#">#responsive</a>
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
           </div>
         </div>
       </div>
     </div>
-    <div className="custom-card">
+    <div className="">
       <div>
         <div className="card">
           <div className="card-image">
@@ -68,13 +71,12 @@ export default () => (
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               nec iaculis mauris. <a>@bulmaio</a>.<a href="#">#css</a>{" "}
               <a href="#">#responsive</a>
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div className="custom-card">
+    <div className="">
       <div>
         <div className="card">
           <div className="card-image">
@@ -105,11 +107,11 @@ export default () => (
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               nec iaculis mauris. <a>@bulmaio</a>.<a href="#">#css</a>{" "}
               <a href="#">#responsive</a>
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
 );

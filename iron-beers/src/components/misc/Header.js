@@ -17,9 +17,9 @@ export default () => (
 
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-start">
-      <a className="navbar-item">
-        Beers
-      </a>
+      <NavLink to="/all-beers" className="navbar-item">
+        All Beers
+      </NavLink>
 
       <a className="navbar-item">
         Random Beer
